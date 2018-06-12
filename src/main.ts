@@ -1,6 +1,5 @@
-
+import * as acorn  from 'acorn/dist/acorn.es.js'
 declare const require : (module: string) => any
-const acorn = require('acorn/dist/acorn.js')
 
 import { Scope } from './scope'
 import { Var } from './scope'
